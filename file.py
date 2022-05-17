@@ -13,7 +13,8 @@ def load_photos_folder(directory):
                 "name": get_file_name(f),
                 "file": f,
                 "columns": 3,
-                "rows": 3
+                "rows": 3,
+                "scale": 1
             }
             c.append(file)
             print(get_file_name(f))
